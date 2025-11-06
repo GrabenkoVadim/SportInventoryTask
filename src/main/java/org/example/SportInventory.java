@@ -1,11 +1,11 @@
 package org.example;
 
 public class SportInventory {
-    private String name;
-    private String category;
-    private double price;
-    private double weight;
-    private int durability;
+    private String name;         // назва інвентарю
+    private String category;     // вид спорту
+    private double price;        // ціна інвентарю
+    private double weight;       // вага інвентарю
+    private int durability;      // міцність (0–100)
 
     public SportInventory(String name, String category, double price, double weight, int durability) {
         this.name = name;
