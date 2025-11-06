@@ -26,8 +26,11 @@ public class Executor {
                 System.out.println(item);
             }
 
+            // зразок для пошуку ідентичного об'єкта
             SportInventory target = new SportInventory("Boxing Gloves", "Boxing", 60.0, 0.4, 80);
-            boolean found = false;
+
+            boolean found = false; // прапорець для позначення, що елемент знайдено
+
 
             for (SportInventory item : inventory) {
                 if (item.equals(target)) {
